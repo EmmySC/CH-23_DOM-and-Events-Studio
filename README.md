@@ -6,3 +6,4 @@ https://education.launchcode.org/intro-to-professional-web-dev/chapters/dom-and-
 
 link to 23.7 Exercises - basic flight simulator
 https://replit.com/@echassin/CH-23-Exercises-DOM-and-Events#index.html
+

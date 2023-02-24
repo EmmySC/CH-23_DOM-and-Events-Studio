@@ -3,7 +3,7 @@
     display: inline-block;
     height: 80%;
     width: 40%;
-    position: relative;
+    position: relative; /* change from relative to absolute?, per Studio Note */
 }
 
 #flightStatus {
@@ -28,3 +28,11 @@
 .centered {
     text-align: center;
 }
+
+#rocket {                  /*relative to it's container/field */
+    position: absolute;    /*change from relative to absolute?, per Studio Note */
+    bottom: 0; 
+    left: calc(50%-38px);  /*45%??*/
+} 
+
+/*<img src = "LaunchCode_rocketline_white.png" height = "75" width = "75" id = "rocket" style = "position: absolute; bottom: 0; left: calc(50% - 38px)"/>*/
